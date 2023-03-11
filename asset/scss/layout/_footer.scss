@@ -1,0 +1,117 @@
+.footer {
+    margin: 0;
+    background: #fafafa;
+    padding: 30px 16px 30px;
+
+    color: #555;
+    font-family: 'Gilroy','NotoSansKR',sans-serif;
+    line-height: 20px;
+
+    .logo-area {
+        width: 90px;
+        // padding-bottom: 10px;
+        .logo {
+            display: block;
+            padding-bottom: 10px
+        }
+        img {
+            width: 90px;
+        }
+    }
+    .desc {
+        font-size: 14px;
+    }
+    .cs-area {
+        padding-bottom: 20px;
+        .cs {
+            font-size: 13px;
+            line-height: 16px;
+            font-weight: 500;
+            padding-top: 24px;
+            padding-bottom: 5px;
+        }
+        .tel {
+            display: block;
+            font-size: 18px;
+            line-height: 21px;
+            padding-bottom: 10px;
+        }
+        .time {
+            font-size: 13px;
+            line-height: 16px;
+            font-weight: 400;
+            padding-bottom: 5px;
+        }
+    }
+    .sns-area {
+        width: 150px;
+        display: flex;
+        gap: 25px;
+        img {
+            height: 22px;
+        }
+    }
+
+}
+.policy-area {
+    padding: 12px 0;
+    .policy-list {
+        display: flex;
+        a strong{
+            font-size: 12px;
+            line-height: 1.7;
+            color: #777;
+            padding: 4px 0;
+        }
+        a::after {
+            content: "";
+            width: 1px;
+            height: 10px;
+            background: #ccc;
+            margin: 0 10px;
+            display: inline-block;
+        }
+        .dn::after {
+            content: '';
+            display: none;
+        }
+
+    }
+
+    .addr-area {
+        p {
+            display: inline-block;
+            font-size: 11px;
+            line-height: 13px;
+            font-weight: 400;
+            color: #777;
+        }
+    }
+
+}
+.license-area {
+    margin-top: 24px;
+
+    .license-list {
+        display: flex;
+        gap: 22px;
+        align-items: center;
+    }
+    .license-item {
+
+        a {
+            display: block;
+            width: 45px;
+            &.img2 {
+                width: 36px;
+            }
+            &.img3 {
+                width: 27px;
+            }
+        }
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+}

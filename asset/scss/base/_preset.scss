@@ -1,0 +1,196 @@
+.blind {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    margin: -1px;
+}
+
+
+.overflow{
+    overflow: hidden;
+}
+
+
+.common-inner {
+    width: 1152px;
+    margin: 0 auto;
+}
+
+.dot {
+    display: inline-block;
+    position: relative;
+    // font-weight: 500;
+    font-size: 18px;
+    margin-right: 7px;
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0px;
+        width: 6px;
+        height: 6px;
+        margin-left: 3px;
+        background: #ee5728;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
+.header .group-gnb .cr-or, .header .category-wrap .cr-or {
+    color: #ee5728;
+}
+
+
+// ***************** 바로가기 ***************** //
+#skipNav {
+    position: relative;
+    z-index: 3000
+}
+
+#skipNav a {
+    position: absolute;
+    top: -30px;
+    left: 0;
+    width: 138px;
+    border: 1px solid #4ec53d;
+    background: #333;
+    text-align: center
+}
+
+#skipNav a:active,
+#skipNav a:focus {
+    top: 0;
+    text-decoration: none;
+    z-index: 1000
+}
+
+#skipNav span {
+    display: inline-block;
+    padding: 2px 6px 0 0;
+    font-size: 13px;
+    line-height: 26px;
+    color: #fff;
+    letter-spacing: -1px;
+    white-space: nowrap
+}
+
+// ***************** 바로가기 끝 ***************** //
+
+
+// ***************** sp ***************** //
+
+
+
+
+
+
+
+
+.strong,
+.emphasis,
+em,
+strong {
+    font-weight: bold;
+}
+
+.headline {
+    padding: 50px 16px 22px;
+    font-size: 20px;
+    line-height: 29px;
+    color: #333;
+    letter-spacing: -0.05em;
+    font-weight: 700;
+}
+.headline-middle{display: inline-block;
+    padding: 30px 0;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333;
+    font-weight: 600;
+    position: relative;}
+
+
+
+    .dimmed {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0,0,0,.3);
+        z-index: 3;
+        display: none;
+    }
+
+
+// top-button
+.gototop-box {
+    display: none;
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    z-index: 20;
+    width: 42px;
+    border: 1px solid rgba(230, 230, 230, 0.8);
+    background-color: rgba(255, 255, 255, 0.7);
+
+    .kakao {
+        a {
+            height: 30px;
+            background-image: url(../images/kakao_chat.png);
+            background-size: 30px 30px;
+            margin-top: 4px;
+        }
+        span {
+            padding-top: 10px;
+        }
+    }
+
+    ul {
+        li {
+            border-top: 1px solid rgba(230, 230, 230, 0.8);
+            // padding: 5px;
+            box-sizing: border-box;
+            border-top: 1px solid #e9e9e9;
+
+            &:first-child {
+                border-top: 0;
+            }
+
+            a {
+                display: block;
+                position: relative;
+                height: 43px;
+                color: transparent;
+                font-size: 0;
+                display: block;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+            span {
+                display: block;
+                padding-top: 10px;
+                font-size: 11px;
+                line-height: 13px;
+                letter-spacing: -0.04em;
+                font-weight: 500;
+                color: #595959;
+                text-align: center;
+            }
+        }
+    }
+
+    .up {
+        a {
+            height: 24px;
+            padding: 24px 20px 14px;
+            box-sizing: border-box;
+            background-image: url(../images/btn_top.png);
+            background-size: 19px auto;
+        }
+    }
+}
+
+
