@@ -125,7 +125,7 @@
 
             .nav-list {
                 visibility: hidden;
-                /* 영역은 잡혀있음,,  하지만 안보임*/
+                /* 영역은 잡혀있지만 안보이게*/
             }
 
 
@@ -194,12 +194,6 @@
             background-size: 12px auto;
             background-repeat: no-repeat;
             background-position: center;
-
-            // 부모 컨트롤로 다 바꾸기
-
-            // &.show {
-            //     transform: rotate(180deg);
-            // }
         }
     }
 

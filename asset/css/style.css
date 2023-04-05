@@ -379,7 +379,7 @@ strong {
 }
 .group-gnb.active .nav-area .nav-list {
   visibility: hidden;
-  /* 영역은 잡혀있음,,  하지만 안보임*/
+  /* 영역은 잡혀있지만 안보이게*/
 }
 .group-gnb.active .nav-area .all-title {
   display: block;
@@ -701,16 +701,6 @@ strong {
   box-sizing: border-box;
 }
 .search-area .search-box input::-moz-placeholder {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #fff;
-  font-size: 20px;
-  line-height: 43px;
-  letter-spacing: -0.5px;
-}
-.search-area .search-box input:-ms-input-placeholder {
   position: absolute;
   left: 0;
   top: 50%;
